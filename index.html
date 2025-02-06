@@ -1,0 +1,45 @@
+<!-- client/index.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>Список дел</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: white;
+        }
+        h1 {
+            text-align: center;
+        }
+        #todo-input {
+            width: 60%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #add-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        ul {
+            list-style-type: disc;
+            margin-top: 20px;
+        }
+        li {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Мой список дел</h1>
+    <input type="text" id="todo-input" placeholder="Введите задачу..." />
+    <button id="add-btn">Добавить</button>
+
+    <ul id="todo-list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
