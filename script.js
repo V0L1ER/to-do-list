@@ -5,8 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const addBtn = document.getElementById("add-btn");
     const todoList = document.getElementById("todo-list");
 
-    // Указываем URL нашего сервера Flask:
-    // Если вы используете ngrok для Flask, подставьте публичный адрес оттуда.
     const SERVER_URL = "https://b854-2a02-3103-205b-db00-945d-e8ca-cc27-9e3f.ngrok-free.app/add";
 
     function renderTodos() {
